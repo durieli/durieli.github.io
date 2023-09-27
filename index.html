@@ -1,1 +1,491 @@
-Hello World
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
+
+<head>
+<title>   Daniel Urieli   </title>
+
+<link rel= "icon" href= "favicon.ico" type= "image/x-icon"/>                 
+<link rel= "shortcut icon" href= "favicon.ico" type = "image/x-icon"/>
+
+<style type="text/css">
+body
+{
+    background-image:url(images/bg_enersymp.jpg);
+    background-image:url(images/bg_new.gif);
+    background-image:url(images/bg.gif);
+    background-color:#999999;
+    background-repeat:repeat-x;
+    font-family:"tahoma", "sans-serif";
+   
+  
+   
+}
+
+  paper {
+    font-size:12px;
+  }
+  conf {
+    color:black;
+  }
+  confname {
+    font-style: italic;
+  }
+  black {
+    color:black;
+  }
+  a, a:visited{
+     color: blue; 
+  }
+
+  #wrapper {
+	background-color:#6699cc;
+	 width:615px;
+	 margin-left:25%;
+	 margin-right:25%;
+	 margin-top:1%;
+  
+  }
+  #austin{
+  border: 4px solid #E1E1D6;
+ 
+  margin-top:0.5%;
+  margin-left:0.5%;
+  margin-right:0.5%;
+  
+  }
+  
+  
+  #content{
+  background-color:white;
+  width:99%;
+  margin-right:0.5%;
+  margin-left:0.5%;
+  }
+  
+  #innerContent{
+  width:95%;
+  margin-left:2.5%;
+  }
+  
+  #copy{
+   font-size:14px;
+   margin-right:40%;
+   padding-left:5%;
+   padding-bottom:1%;
+   color:white;
+  }
+  .header {
+  color:#666666;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size:22px;
+  padding-top:3%;
+  border-bottom:1px solid silver;
+  
+  	  
+  }
+  
+  .header2 {
+  font-family:"ariel", "sans-serif";
+  color:#333366;
+  font-size:16px;
+  font-style:bold;
+  letter-spacing:1.5px;
+  display:block;
+  padding-left:3%;
+    }
+  
+  .doc_content{
+  color:#565656;;
+  font-family:"ariel", "sans-serif";
+  font-size:14px;
+  display:block;
+  padding-left:3%;
+  padding-bottom:20%;
+ 
+  
+  	  
+  }
+  #danielPic{
+  position:relative;
+  float:right;
+  border:solid 1px silver;
+  margin:2%;
+  }
+ 
+  a:focus, a:hover {
+  	 background:#E1E1D6; 
+  	 color:#003399;
+  }
+  a:active{
+  	background:#E1E1D6;
+  	color:#003399;
+  }
+  
+  
+  
+  .ui-tabs-hide{
+  display:none;	  
+  }
+  
+  .ui-tabs-nav{
+  zoom:1;
+  margin:0;
+  padding:0;
+  list-style:none;
+ 
+ 
+  }
+  
+  
+  .ui-tabs-nav li {
+  padding:0;
+  margin: 0 5px 0 0 ;
+  float:left;
+ 
+  }
+  
+  .ui-tabs-nav a{
+  font-family: "Trebuchent MS", "Ariel", "Helvetica", "sans-serif";
+  font-size:15px;
+  font-weight:bold;
+  color:#565656;
+  text-decoration:none;
+  display:block;
+  padding:5px 15px 3px 15px;
+  border:none;
+  border-bottom:none;
+  
+  }
+  
+ 
+  {
+  "content_security_policy": "script-src 'self' https://code.jquery.com/jquery-latest.min.js; object-src 'self'"
+  }
+  
+ 
+</style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ui/ui.core.js"></script>
+<script type="text/javascript" src="js/ui/ui.tabs.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $( "#tabSet" ).tabs();
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper" style="margin:0 auto;">
+
+<img id="austin" src="images/austin.gif" height="197" width="601" alt="" />
+
+<div id="content">
+
+<div id="innerContent">
+
+<div id="tabWrap">
+
+<ul id="tabSet" >
+<li> <a href="#panel1">Home</a> </li>
+<li> <a href="#contact">Contact</a> </li>
+<li> <a href="/index.php?sid1=59&amp;session=f10b6bd37e18823e545aa52841ab89e0">Publications</a> </li>
+<li> <a href="#video">Videos</a> </li>
+<li> <a href="#teaching">Teaching</a> </li>
+<li> <a href="#software">software</a> </li>
+</ul>
+
+</div> <!--end #tabWrrap-->
+
+
+
+
+<div id="panel1"> 
+<br/>
+<p class="header">About Me </p>
+
+<img id="danielPic" src="images/danielsPic.jpg" width="180px" height="211px" alt="" />
+
+ 
+<p><span class="header2"></span></p>
+
+<p><span class="doc_content">  I was a Ph.D. student in the <a
+href="https://www.cs.utexas.edu">Computer Science Department</a> at The
+University of Texas at Austin (graduated 2015). I was a member of
+the <a href="https://userweb.cs.utexas.edu/users/pstone/research.shtml"> Learning
+Agents Research Group (LARG)</a>, advised by <a
+href="https://userweb.cs.utexas.edu/users/pstone/">Professor Peter Stone</a>.
+My research focused on designing learning agents for solving sustainable energy
+problems. Prior to joining the Ph.D. program at UT Austin, I completed a dual
+major B.Sc in computer science and mathematics, and an M.Sc in computer
+science, both at <a href="https://www.cs.tau.ac.il">Tel Aviv University</a>.
+<br/>
+<br/>
+<br/>
+<span class="header">News:</span>
+<br/>
+<br/>
+<b>Dec 2015:</b> 
+I graduated and moved to co-establish an autonomous driving research group at General Motors.
+<br/>
+<br/>
+<b>Feb 2015:</b> 
+I won 2nd place in the UT Energy Week Research Competition, in the category ''Generation, Distribution &amp; Markets''.
+<br/>
+<br/>
+<b>Dec 2013:</b> 
+Best Contribution Award in NIPS 2013 workshop on Machine Learning for
+Sustainability for the paper: ''TacTex'13: A Champion Adaptive Power Trading
+Agent''.
+<br/>
+<br/>
+<b>July 2013:</b> We won first place in the Power
+Trading Agent Competition (<a href="https://www.powertac.org/"
+target="_blank">PowerTAC</a>) with our new <a
+href="https://www.cs.utexas.edu/~TacTex/" target="_blank">TacTex</a>
+agent.
+<br/>
+<br/>
+<b>July 2011:</b> We won first place at the the international RoboCup 2011 competition in the 3D simulation league with our team
+<a href="https://www.cs.utexas.edu/~AustinVilla/" target="_blank">UT Austin Villa</a>.
+[<a href="https://www.cs.utexas.edu/news-events/news/2011/ut-austin-villa-wins-world-robocup-championships" target="_blank">details</a>]
+
+
+</span></p>
+
+
+
+</div>  <!--end #panel1-->
+
+
+
+
+<div id="contact"> 
+<br/>
+<p class="header">Contact Info</p>
+
+<p><span class="doc_content"> 
+<b>Email</b> <br/>
+<a href="mailto:urieli@cs.utexas.edu"> urieli @ cs.utexas.edu </a><br/>
+</span></p>
+
+</div>  <!--end #contact-->
+
+
+
+<div id="publications"> 
+<br/>
+<p class="header">Publications</p>
+
+<p><span class="doc_content"> 
+
+<!--
+<a href="https://scholar.google.com/citations?user=IvQBNYAAAAAJ&hl=en">Google Scholar Profile</a>
+<br>
+<br>
+-->
+<!--
+See <a href="https://www.cs.utexas.edu/~ai-lab/people-view.php?PID=354">my publications at the UT AI lab page</a>
+-->
+          <b> Ph.D. Dissertation: </b>
+          <paper>
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/ai-lab/?urieli-thesis" target="_blank">Autonomous Trading in Modern Electricity Markets</a> <br />
+          <black>Daniel Urieli</black> <br />
+          <confname>Ph.D. Dissertation, The University of Texas at Austin, Austin, Texas, USA</confname>, 2015.<br />
+
+          </paper> 
+
+          <br/>
+          <br/> 
+          <b> Conference Papers: </b>
+          <paper>
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAMAS16-urieli.html" target="_blank">An MDP-Based Winning Approach to Autonomous Power Trading: Formalization and Empirical Analysis</a> <br />
+					<black>Daniel Urieli</black>, Peter Stone<br />
+           In <confname>Proc. of the 15th International Conference on Autonomous Agents and Multiagent Systems</confname>, 2016 <conf>(AAMAS-16)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAAI16-urieli.html" target="_blank">Autonomous Electricity Trading using Time-Of-Use Tariffs in a Competitive Market</a> <br />
+					<black>Daniel Urieli</black>, Peter Stone<br />
+           In <confname>Proc. of the 30th Conference on Artificial Intelligence</confname>, 2016 <conf>(AAAI-16)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAAI14-urieli.html" target="_blank">TacTex'13: A Champion Adaptive Power Trading Agent.</a> <br />
+					<black>Daniel Urieli</black>, Peter Stone<br />
+           In <confname>Proc. of the 28th Conference on Artificial Intelligence</confname>, 2014 <conf>(AAAI-14)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAMAS13-urieli.html" target="_blank">A Learning Agent for Heat-Pump Thermostat Control.</a> <br />
+					<black>Daniel Urieli</black>, Peter Stone<br />
+           In <confname>Proc. of the 12th International Conference on Autonomous Agents and Multiagent Systems</confname>, 2013 <conf>(AAMAS-13)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-ECML13-urieli.html" target="_blank">Model-Selection for Non-Parametric Function Approximation in Continuous Control Problems: A Case Study in a Smart Energy System.</a> <br />
+					<black>Daniel Urieli</black>, Peter Stone<br />
+           In <confname>Proc. of the European Conference on Machine Learning and Knowledge Discovery in Databases</confname>, 2013 <conf>(ECML-13)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAAI12-MacAlpine.html" target="_blank">Design and Optimization of an Omnidirectional Humanoid Walk: A Winning Approach at the RoboCup 2011 3D Simulation Competition.</a> <br />
+          Patrick MacAlpine, Samuel Barrett, <black>Daniel Urieli</black>, Victor Vu, Peter Stone <br />
+           In <confname>Proc. of the 26th Conference on Artificial Intelligence</confname>, 2012 <conf>(AAAI-12)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAMAS12-MacAlpine.html" target="_blank">UT Austin Villa 2011: A Champion Agent in the RoboCup 3D Soccer Simulation Competition.</a> <br />
+          Patrick MacAlpine, <black>Daniel Urieli</black>, Samuel Barrett, Shivaram Kalyanakrishnan, Francisco Barrera, Adrian Lopez-Mobilia, Nicolae Stiurca, Victor Vu, Peter Stone <br />
+           In <confname>Proc. of the 11th Int. Conf. on Autonomous Agents and Multiagent Systems</confname>, 2012 <conf>(AAMAS-12)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAAI11-agmon.html" target="_blank">Multiagent Patrol Generalized to Complex Environmental Conditions.</a> <br />
+          Noa Agmon, <black>Daniel Urieli</black>, Peter Stone <br />
+           In <confname>Proc. of the 25th Conference on Artificial Intelligence</confname>, 2011 <conf>(AAAI-11)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AAMAS11-urieli.html" target="_blank">On Optimizing Interdependent Skills: A Case Study in Simulated 3D Humanoid Robot Soccer.</a> <br />
+          <black>Daniel Urieli</black>,  Patrick MacAlpine, Shivaram Kalyanakrishnan, Yinon Bentor, Peter Stone <br />
+           In <confname>Proc. of the 10th Int. Conf. on Autonomous Agents and Multiagent Systems</confname>, 2011 <conf>(AAMAS-11)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://link.springer.com/chapter/10.1007%2F11841036_46" target="_blank">Inner-Product Based Wavelet Synopses for Range-Sum Queries.</a> <br />
+          Yossi Matias, <black>Daniel Urieli</black> <br />
+           In <confname>Proc. of the 14th Annual European Symposium on Algorithms</confname>, 2006 <conf>(ESA-06)</conf>.<br />
+          <br/>
+          <br/>
+				  <a href="https://link.springer.com/chapter/10.1007%2F978-3-540-30570-5_25" target="_blank">Optimal workload-based weighted wavelet synopses.</a> <br />
+          Yossi Matias, <black>Daniel Urieli</black> <br />
+           In <confname>Proc. of the 10th International Conference Database Theory</confname>, 2005 <conf>(ICDT-05)</conf>.<br />
+
+           </paper>
+
+
+          <br/>
+          <br/>
+          <b> Journal Articles: </b>
+          <paper>
+          <br/>
+          <br/>
+				  <a href="https://www.sciencedirect.com/science/article/pii/S0304397506008668" target="_blank">Optimal workload-based weighted wavelet synopses.</a> <br />
+          Yossi Matias, <black>Daniel Urieli</black> <br />
+           In <confname>Theoretical Computer Science (TCS)</confname>, 371(3) (2007) 227-246, special issue of selected papers from ICDT'05 (invited paper) <conf>(TCS)</conf>.<br />
+           </paper>
+
+
+          <br/>
+          <br/>
+          <b> Book Chapters: </b>
+           <paper>
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-LNAI11-Bai.html" target="_blank">Wright Eagle and UT Austin Villa: RoboCup 2011 Simulation League Champions.</a> <br />
+           Aijun Bai, Xiaoping Chen, Patrick MacAlpine, <black>Daniel Urieli</black>, Samuel Barrett, Peter Stone <br />
+           In <confname>RoboCup-2011: Robot Soccer World Cup XV, Lecture Notes in Artificial Intelligence</confname>, Springer Verlag, Berlin 2012 <br />.
+           </paper>
+         
+          <br/>
+          <br/>
+          <b> Technical Reports: </b>
+           <paper>
+          <br/>
+          <br/>
+				  <a href="https://www.cs.utexas.edu/users/pstone/Papers/bib2html/b2hd-AI1110-macalpine.html" target="_blank">UT Austin Villa 2011 3D Simulation Team Report.</a> <br />
+           Patrick MacAlpine, <black>Daniel Urieli</black>, Samuel Barrett, Shivaram Kalyanakrishnan, Francisco Barrera, Adrian Lopez-Mobilia, Nicolae Stiurca, Victor Vu, Peter Stone <br />
+           <confname>Technical Report AI11-10, The University of Texas at Austin, Department of Computer Science, AI Laboratory</confname> 2011<br />.
+           </paper>
+
+</span></p>
+</div>  <!--end #publications-->
+
+
+
+
+<div id="video"> <br/>
+<br/>
+<p class="header">Videos</p>
+
+<p><span class="doc_content"> 
+
+<a href="https://www.cs.utexas.edu/~AustinVilla/sim/3dsimulation/">Robocup 3D Simulation Team</a>
+
+<br/>
+<br/>
+
+<a href="https://www.cs.utexas.edu/~UTSeaSim">UTSeaSim</a> - A Ship Patrol Simulator I developed
+
+</span></p>
+
+</div>  <!--end #video-->
+
+
+
+
+
+<div id="teaching"><br/>
+<p class="header">Courses (TA)</p>
+
+<p><span class="doc_content"> 
+
+<a href="https://userweb.cs.utexas.edu/~pstone/Courses/343spring12/">CS 343: Artificial Intelligence</a> (Spring 2012)
+
+<br/>
+<br/>
+
+<a href="https://userweb.cs.utexas.edu/~pstone/Courses/343spring10/">CS 343: Artificial Intelligence</a> (Spring 2010)
+
+
+</span></p>
+</div>  <!--end #teaching-->
+
+
+
+
+<div id="software"> <br/>
+<br/>
+<p class="header">Software</p>
+
+<p><span class="doc_content"> 
+
+<a href="https://www.cs.utexas.edu/~AustinVilla/sim/3dsimulation/">Robocup 3D Simulation Team</a>
+
+<br/>
+<br/>
+
+<a href="https://www.cs.utexas.edu/~UTSeaSim">UTSeaSim</a> - A Ship Patrol Simulator I developed
+
+</span></p>
+
+</div>  <!--end #video-->
+
+
+
+
+
+
+
+
+
+
+
+</div><!--end #innerContent-->
+</div> <!--end #content-->
+            
+
+<p id="copy">Daniel Urieli 2013-2016 &copy;</p>
+</div> <!--end #wrapper-->
+
+
+
+
+
+
+</body>
+</html>
